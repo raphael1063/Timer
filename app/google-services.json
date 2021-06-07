@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "251554623627",
+    "project_id": "timer-8b913",
+    "storage_bucket": "timer-8b913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251554623627:android:6272ee2d6e61951f41648e",
+        "android_client_info": {
+          "package_name": "com.robin.timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251554623627-id8vfg4ubgcj29vg908eqrdvdq5ilfh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robin.timer",
+            "certificate_hash": "6d68fe16201baac9ecd70ea4cf414d5487bac7dc"
+          }
+        },
+        {
+          "client_id": "251554623627-ll6u7ti24dcn0pl7r413ng0148j5fqc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqD5XLFux4DnwU4hpD-iCZ0yg2JAGe0AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251554623627-ll6u7ti24dcn0pl7r413ng0148j5fqc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,8 @@
-package com.robin.timer
+package com.robin.timer.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.robin.timer.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
