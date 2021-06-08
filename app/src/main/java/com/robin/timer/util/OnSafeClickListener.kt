@@ -1,4 +1,4 @@
-package com.robin.doornot.util
+package com.robin.timer.util
 
 import android.os.SystemClock
 import android.view.View

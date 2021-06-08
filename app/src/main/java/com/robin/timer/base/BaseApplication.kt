@@ -1,8 +1,8 @@
-package com.robin.doornot.base
+package com.robin.timer.base
 
 import android.app.Application
 import com.google.android.gms.ads.MobileAds
-import com.robin.doornot.di.viewModelModule
+import com.robin.timer.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 import timber.log.Timber
@@ -13,6 +13,7 @@ class BaseApplication : Application() {
         super.onCreate()
         instance = this
         Timber.plant(Timber.DebugTree())
+        MobileAds.initialize(this)
         startKoin {
             androidContext(this@BaseApplication)
             modules(

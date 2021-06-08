@@ -1,9 +1,8 @@
-package com.robin.doornot.ext
+package com.robin.timer.ext
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils
@@ -15,9 +14,9 @@ import androidx.databinding.BindingAdapter
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
 import com.google.android.material.snackbar.Snackbar
-import com.robin.doornot.R
-import com.robin.doornot.util.Event
-import com.robin.doornot.util.OnSafeClickListener
+import com.robin.timer.util.Event
+import com.robin.timer.util.OnSafeClickListener
+import com.robin.timer.R
 
 /* View Visibility */
 fun View.visible() {
