@@ -162,9 +162,9 @@ class CircleProgressBar(context: Context, attrs: AttributeSet) :
         val r = Color.red(color) * factor
         val g = Color.green(color) * factor
         val b = Color.blue(color) * factor
-        val ir = Math.min(255, r.toInt())
-        val ig = Math.min(255, g.toInt())
-        val ib = Math.min(255, b.toInt())
+        val ir = 255.coerceAtMost(r.toInt())
+        val ig = 255.coerceAtMost(g.toInt())
+        val ib = 255.coerceAtMost(b.toInt())
         val ia = Color.alpha(color)
         return Color.argb(ia, ir, ig, ib)
     }
